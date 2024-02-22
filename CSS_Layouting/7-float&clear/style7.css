@@ -1,0 +1,172 @@
+.container1{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.con1 {
+    width: 100px;
+    height: 100px;
+}
+
+.box1-1{
+    background-color: salmon;
+}
+
+.box1-2{
+    background-color: limegreen;
+}
+
+.box1-3{
+    background-color: lightskyblue;
+}
+
+/*? =========== */
+
+.container2{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.con2 {
+    width: 100px;
+    height: 100px;
+}
+
+.box2-1{
+    background-color: salmon;
+}
+
+.box2-2{
+    background-color: limegreen;
+    float: left;
+    margin-left: 15px;
+}
+
+.box2-3{
+    background-color: lightskyblue;
+}
+
+/*? =========== */
+
+.container3{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.con3 {
+    width: 100px;
+    height: 100px;
+}
+
+.box3-1{
+    background-color: salmon;
+}
+
+.box3-2{
+    background-color: limegreen;
+    float: right;
+}
+
+.box3-3{
+    background-color: lightskyblue;
+}
+
+/** ========================================================== */
+/** ===================== Index7-2.html ====================== */
+/** ========================================================== */
+
+.container4{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+    overflow: auto; /*! ini artinya..containernya akan menyesuaikan tinggi sesuai isi content di dalamnya */
+}
+
+.container4 p{
+    text-align: justify;
+}
+
+.logoHF{
+    width: 200px;
+    float: left;
+    margin: 5px;
+}
+
+/*? =========== */
+
+.container5{
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.container5 .kotak{
+    width: 80px;
+    height: 80px;
+    color: red;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    background-color: #333;
+    margin: 2px;
+    float: left;
+}
+
+.container5 .clear{
+    clear: left;
+}
+
+/*? =========== */
+
+.container6{ /** membersihkan float dengan MICRO CLEARFIX (lihat di index7-2.html) */
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+.kotakKiri{
+    width: 100px;
+    height: 300px;
+    background-color: salmon;
+    float: left;
+}
+
+.kotakTengah{
+    width: 400px;
+    height: 300px;
+    background-color: lightskyblue;
+    float: left;
+}
+
+.kotakKanan{
+    width: 100px;
+    height: 300px;
+    background-color: limegreen;
+    float: right;
+}
+
+/*? =========== MICRO CLEARFIX =========== */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/*? =========== MARGIN CONTAINER =========== */
+.container1, .container2, .container3, .container3, .container4, .container5, .container6{
+    margin-bottom: 10px;
+}

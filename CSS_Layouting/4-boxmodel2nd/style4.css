@@ -1,0 +1,45 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 50px;
+    border-left: 5px solid black;
+    border-top: 5px dashed black;
+    border-right: 5px dotted black;
+    border-bottom: 5px double black;
+}
+
+.nothing{
+    text-align: justify;
+    width: 500px;
+    background-color: gainsboro;
+    margin: 20px auto 20px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.autoSizing{
+    text-align: justify;
+    width: 500px;
+    background-color: turquoise;
+    margin: 20px auto 20px;
+    padding: 25px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.manualSizing{
+    text-align: justify;
+    width: 440px;
+    background-color: tomato;
+    margin: 20px auto 20px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+/** Properti box-sizing memungkinkan kita untuk memasukkan padding dan border dalam total lebar dan tinggi elemen. **/
+
+/** "padding" tidak punya value 'auto' dan tidak bisa diberikan nilai negatif */
+
+/** pemberian "padding" dan "border" pada suatu element dapat mempengaruhi ukuran element-nya */

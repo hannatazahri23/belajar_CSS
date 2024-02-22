@@ -1,0 +1,35 @@
+.con1{
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+}
+
+.con1-1{
+    width: 80%;
+    background-color: aqua;
+}
+
+.con2{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    overflow: auto;
+}
+
+.con3{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    overflow: hidden;
+}
+/*
+    value 'width' dan 'height'
+    => px : pixel
+    => % : percent
+    => in : inch
+    => cm : centimeter
+    => mm : millimeter
+    => pt : point
+    => pc : pica
+    => vw : viewport width
+*/

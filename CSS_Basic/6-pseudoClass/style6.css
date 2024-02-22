@@ -1,0 +1,66 @@
+.myself:link{
+    color: crimson;
+}
+
+.myself:hover{
+    color: darkred;
+    font-style: oblique;
+}
+
+.myself:active{
+    color: brown;
+}
+
+.myself:visited{
+    color: palevioletred;
+}
+
+.list1 li:first-child a{
+    color: red;
+}
+
+.list1 li:last-child a{
+    color: lightseagreen;
+}
+
+.list1 li:nth-child(3) a{
+    color: darkgreen;
+}
+
+.list1 li:nth-child(4n) a{
+    color: darkcyan;
+}
+
+.list1 li:nth-child(3n-1) a{
+    color: chocolate;
+}
+
+.list2 li:nth-child(even) a{ /* even = genap */
+    color: green;
+}
+
+.list2 li:nth-child(odd) a{ /* odd = ganjil */
+    color: red;
+}
+
+.list2 li:nth-child(3n) a:hover{
+    font-family: Arial;
+}
+
+.list2 li:nth-child(3n+1) a:hover{
+    color: blue;
+}
+
+.list2 li:nth-child(3n-1) a:hover{
+    font-style: oblique;
+}
+
+p:first-of-type{
+    font-family: Georgia;
+    color: darkgreen;
+}
+
+p:last-of-type{
+    font-family: Arial;
+    color: darkred;
+}

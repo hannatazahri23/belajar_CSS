@@ -1,0 +1,213 @@
+/** ======================================== **/
+/*? =============== CSS Reset=============== **/
+/** ======================================== **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** ============================================== **/
+/*! =============== MICRO CLEARFIX =============== **/
+/** ============================================== **/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
+
+/** ======================================== **/
+/** =============== Your CSS =============== **/
+/** ======================================== **/
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/double-bubble.png);
+    color: #333;
+}
+
+.top-bar{
+    background-color: lightskyblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    border-bottom: 3px solid salmon;
+    z-index: 999;
+}
+
+.container{
+    width: 960px;
+    margin: 80px auto 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.container .twitter img{
+    width: 150px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header ul li a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero{
+    height: 350px;
+    background-image: url(img/desktop-1920x1080\ \(1\).jpg);
+    background-size: cover;
+    background-position: 0 -110px; /** value pertama untuk horizontal dan value kedua untuk vertical */
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+
+
+/** ============= main ============= */
+.content .main{
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box; /* agar ukuran '.main'nya tetap 600px */
+    float: left;
+}
+
+.content .main h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content .main h3{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.content .main h3 a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.content .main h3 a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.content .main p{
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+
+/** ============= sidebar ============= */
+.content .sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.content .sidebar h3{
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.content .sidebar a img{
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content .sidebar a img:hover{
+    width: 64px;
+    border: 3px solid lightskyblue;
+    margin-right: 10px;
+}
+
+.content .sidebar p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*  */

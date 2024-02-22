@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.satu{
+    background-color: lightgreen;
+}
+
+.dua{
+    background-color: violet;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.tiga{
+    background-color: gold;
+}
+
+/** untuk value 'position', selain menggunakan property 'Static' (default-nya) maka sebuah element diibaratkan maju 1 dimensi ke depan, dan dapat diberi value 'top/left/bottom/right' */

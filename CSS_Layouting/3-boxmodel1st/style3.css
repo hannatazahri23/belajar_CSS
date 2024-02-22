@@ -1,0 +1,80 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-top: 20px;
+}
+
+.box3{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+
+.box3-1{
+    width: 25px;
+    height: 25px;
+    background-color: darkcyan;
+    margin-left: 75px;
+}
+
+.box4, .box5, .box6, .box7{
+    display: inline-block;
+}
+
+.box4{
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+    margin-right: 25px;
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 25px;
+}
+
+.box6{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    margin-left: -25px;
+}
+
+.box7{
+    width: 25px;
+    height: 25px;
+    background-color: teal;
+}
+
+.box8{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 25px auto; /* shorthand = atas bawah, kiri kanan */
+}
+
+.box9{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    margin: auto;
+}
+
+/* overlapping adalah pemberian 'margin' pada 2 buah element akan tetapi saling bertabrakan (khusus arah yg vertical/atas dan bawah, untuk arah yg horizontal/kiri dan kanan tidak berpengaruh malah dijumlahkan marginnya) */
+
+/* ketika memberikan 'negatif margin' pada salah satu element, maka element yg selanjutnya atau yg ada di bawahnya akan ikut terbawa */

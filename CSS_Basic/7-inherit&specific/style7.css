@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategrey;
+}
+
+a{
+    color: inherit; /* 'inherit' value pewarisan sesuai dengan property dan value dari "Parent"-nya/tag pembungkusnya */
+}
+
+ul#waifu li{
+    color: black;
+}
+
+ul#waifu li.myBeloved{
+    color: palevioletred;
+}
+
+/* 
+    ! INGAT: jika ingin menuliskan 'class/id' setelah 'element', maka 'class/id' tersebut harus menempel pada 'elementnya'
+
+    ! CONTOH: <ul#waifu> atau <li.myBeloved>
+*/

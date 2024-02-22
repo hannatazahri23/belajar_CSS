@@ -1,0 +1,58 @@
+body{
+    height: 1000px;
+}
+
+.satu, .dua, .tiga{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.satu{
+    background-color: limegreen;
+    z-index: 6;
+}
+
+.dua{
+    background-color: crimson;
+    top: 100px;
+    left: 100px;
+    z-index: 999; /** agar elementnya semakin maju */
+}
+
+.tiga{
+    background-color: royalblue;
+    top: 200px;
+    left: 200px;
+    z-index: 5;
+}
+
+
+/**============================================================*/
+/*? ======================index11-2.html====================== */
+/**============================================================*/
+
+.iklan{ /** membuat sebuah dimensi tanpa 'widht' & 'height' */
+    background-color: black;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+    opacity: 70%;
+    border-radius: 8px;
+}
+
+.tutup{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+
+/** Z-Index kita gunakan utk mengatur tumpukan dari element ketika element-nya 'non-static'. Semakin besar angka property yg kita berikan, maka elementnya akan semakin di depan (jika kita beri sebuah minus (-) maka elementnya akan semakin di belakang) */
