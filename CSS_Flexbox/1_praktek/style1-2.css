@@ -1,0 +1,109 @@
+.mainContainer{
+    width: 100%;
+    border: 5px solid #333;
+}
+
+.mainContainer .order{
+    width: 400px;
+    margin: 10px auto;
+} 
+
+.mainContainer .orderContainer{
+    width: 400px;
+    /* height: 200px; */
+    border: 5px solid #333;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainContainer .orderContainer div{
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    font-size: 35px;
+    line-height: 80px;
+    text-align: center;
+    background-color: salmon;
+}
+
+.order1{ order: 3; } /** jika pertama kali memberikan property 'order' pada items, maka item itu akan langsung ke kanan  */
+.order2{ order: 1; } /** <<== property "order" */
+.order3{ order: 4; }
+.order4{ order: 2; }
+
+/** ========================= ========================= */
+
+.mainContainer .flexgrow{
+    width: 400px;
+    margin: 50px auto 10px;
+} 
+
+.mainContainer .flexgrowContainer{
+    width: 400px;
+    /* height: 100px; */ /** <<== tidak menggunakan 'height' pada container-nya */
+    border: 5px solid #333;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainContainer .flexgrowContainer div{
+    /* width: 80px;
+    height: 80px; */ /** <<== tidak menggunakan 'weight' dan 'height' pada element-nya */
+    margin: 3px;
+    font-size: 35px;
+    line-height: 80px;
+    text-align: center;
+    background-color: salmon;
+    flex-grow: 1; /** <<== property "flex-grow" */
+}
+
+.mainContainer .flexgrowContainer .flexgrow2{
+    flex-grow: 3;
+}
+
+/** ========================= ========================= */
+
+.mainContainer .alignself{
+    width: 400px;
+    margin: 50px auto 10px;
+} 
+
+.mainContainer .alignselfContainer{
+    width: 400px;
+    height: 200px;
+    border: 5px solid #333;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.mainContainer .alignselfContainer div{
+    width: 80px;
+    /* height: 80px; */
+    margin: 3px;
+    font-size: 35px;
+    line-height: 80px;
+    text-align: center;
+    background-color: salmon;
+}
+
+.mainContainer .alignselfContainer .alignself1{
+    align-self: stretch;
+}
+
+.mainContainer .alignselfContainer .alignself2{
+    align-self: flex-end;
+}
+
+.mainContainer .alignselfContainer .alignself3{
+    align-self: center;
+}
